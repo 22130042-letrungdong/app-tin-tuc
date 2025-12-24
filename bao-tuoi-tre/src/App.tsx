@@ -1,13 +1,15 @@
-// import { useState } from 'react'
+import Header from "./components/ui/Header"
+import NavBar from "./components/ui/NavBar"
+import Weather from "./components/ui/Weather"
 
-// import './App.css'
-import Header from "./components/Header"
 
 function App() {
   return (
     <>
       <div>
         <Header />
+        <NavBar />
+        <Weather />
       </div>
     </>
   )
