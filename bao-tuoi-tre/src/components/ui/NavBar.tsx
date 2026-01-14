@@ -1,4 +1,3 @@
-import React from 'react'
 import { House, ChevronDown } from 'lucide-react'
 
 const categories = [
@@ -20,9 +19,6 @@ const categories = [
               'GIẢI THẬT',
               'BẠN ĐỌC',
               'CẦN BIẾT',
-              // 'TUỔI TRẺ SAO',
-              // 'SAO NHIỀU',
-              // 'TRẢI NGHIỆM VÀ ĐÁNH GIÁ'
             ]
 
 
@@ -36,7 +32,7 @@ function NavBar() {
         </li>
         {categories.map((item) => (
           <li key={item}>
-            <a href="">{item}</a>
+            <a className='hover:text-red-600' href="">{item}</a>
           </li>
         ))}
 
